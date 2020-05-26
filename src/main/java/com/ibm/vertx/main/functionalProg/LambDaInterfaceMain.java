@@ -1,0 +1,19 @@
+package com.ibm.vertx.main.functionalProg;
+
+
+//is it functional interface : no
+@FunctionalInterface
+interface Welcome {
+    void sayHello();
+}
+public class LambDaInterfaceMain {
+    public static void main(String[] args) {
+        Welcome hello = ()->{
+            System.out.println("Welcome to Lambda Expression!");
+        };
+        //call sayHello
+        hello.sayHello();
+    }
+}
+
+
