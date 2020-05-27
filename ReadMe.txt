@@ -1,15 +1,7 @@
-Camel Java Router Project
-=========================
+This branch only consists of functional programming using java.
 
-To build this project use
-
-    mvn install
-
-To run this project from within Maven use
-
-    mvn exec:java
-
-For more help see the Apache Camel documentation
-
-    http://camel.apache.org/
-
+the Lambda function usage :
+1.Function as paramater
+2.variable Capture i.e lambda using static and instance variables.
+3. Method refernce (both static and instance )
+4.Built in Functional Interfaces in java
