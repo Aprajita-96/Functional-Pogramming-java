@@ -1,4 +1,4 @@
-package com.ibm.vertx.main.functionalProg;
+package com.ibm.vertx.main.functionalProg.basicsOfFunctionalProg;
 import java.util.Arrays;
 import java.util.List;
 
